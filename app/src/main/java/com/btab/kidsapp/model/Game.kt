@@ -5,7 +5,7 @@ data class Game(
     val image: String
 )
 
-enum class GameName(name: String) {
+enum class GameName(val description: String) {
     ABECEDARIO("Abecedario"),
     ANIMALES("Animales"),
     VOCALES("Vocales"),
